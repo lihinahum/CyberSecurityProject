@@ -40,7 +40,7 @@ will show an alert dialog with content - XSS ATTACK!
 
 ---
 
-## 👩‍💻 My Contributions (by Lihi Nahum)
+##  My Contributions (by Lihi Nahum)
 
 This project was developed as a team effort as part of a cyber security course. I was responsible for designing and implementing the entire backend.
 
