@@ -32,9 +32,27 @@ x', 'last', 'email', 'phone', 'addr','pkg'); CREATE TABLE clients_hacked AS SELE
 
 The injection will let the hacker to create clients_hacked table in the database with all the clients info from the original table
 
-
 XSS attack - 
 in the first name field:
 <img src=x onerror="alert(`XSS ATTACK!`)">
 (the rest doesnt matter)
 will show an alert dialog with content - XSS ATTACK!
+
+---
+
+## 👩‍💻 My Contributions (by Lihi Nahum)
+
+This project was developed as a team effort as part of a cyber security course. I was responsible for designing and implementing the entire backend.
+
+### 🔧 Backend Responsibilities:
+- Built both **secure** and **vulnerable** backend servers using **Node.js** and **Express**.
+- Designed and implemented RESTful API endpoints for user registration, login, and client management.
+- Integrated with a **MySQL** database, including schema creation and query logic.
+- Simulated common security vulnerabilities, including:
+  - **SQL Injection** (e.g., bypassing authentication, dumping data into new tables).
+  - **XSS Attacks** (e.g., executing malicious JavaScript through input fields).
+- Implemented server-side logic for input validation and session management in the secure version.
+- Coordinated integration with the front-end team and ensured functional communication between client and server.
+
+### 📁 Original Repository:
+https://github.com/RanSamo/CyberSecurityProject
